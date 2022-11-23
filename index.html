@@ -1,0 +1,640 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="shorcut icon" href="https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Royal_Crown_of_France.svg/2354px-Royal_Crown_of_France.svg.png">
+</head>
+<body class="container-fluid bg-dark">
+    <header>
+        <nav class="navbar bg-dark navbar-dark">
+            <div class="container-fluid">
+                <h5 class="navbar-brand mt-3" style="font-size:24px; font-family:Arial; font-weight:bold; text-shadow:2px 3px 1px gray;"><font size="55">IT</font>TECHNOLOGY CONFERENCE</h5>
+                <button class="navbar-toggler" data-bs-toggle="collapse"  data-bs-target="#navabar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse"  id="navabar">
+                    <ul class="navbar-nav text-center  text-white">
+                        <li class="nav-item"><a class="nav-link"></a>Home</li>
+                        <li class="nav-item"><a class="nav-link"></a>About</li>
+                        <li class="nav-item"><a class="nav-link"></a>Details</li>
+                        <li class="nav-item"><a class="nav-link"></a>contact</li> 
+                        <li class="nav-item input-group mt-2">
+                            <input type="text" placeholder="search" class="form-control" id="txtsearch">
+                            <button class="btn btn-warning "><span class="bi bi-search"></span></button></li>
+                    </ul>
+                </div>
+                <div class="text-end nav-item">
+                    <button class="btn btn-info" style="font-size:15px;" data-bs-toggle="modal" data-bs-target="#loginButton"><span class="bi bi-person-heart"></span> LOGIN</button>
+                    <button class="btn btn-danger"  style="font-size:15px;" data-bs-toggle="modal" data-bs-target="#signupButton"><span class="bi bi-person-fill"></span> SIGNUP</button>
+                </div>
+            </div> 
+        </nav>
+        <img src="https://www.shutterstock.com/shutterstock/photos/1976419325/display_1500/stock-vector-colorful-d-application-interface-banner-for-it-online-conference-modern-technology-background-1976419325.jpg " class="mt-3" height="700px" width="100%">
+    </header>
+    <section>
+              
+
+      
+    <div class="accordion mt-5" id="Courses">
+        <!-- Customer Details -->
+        <div class="accordion-item">
+            <div class="accordion-header">
+                <button class="btn btn-dark mt-1 w-100" data-bs-target="#customer" data-bs-toggle="collapse" style="font-weight:bold; font-family:Arial, Helvetica, sans-serif;">STUDENT DETAILS</button>
+            </div>
+            <div class="accordion-collapse collapse" id="customer" data-bs-parent="#Courses">
+                <div class="accordion-body">
+                    <dl>
+                        <dt>Customer</dt>
+                        <dd><input type="text" placeholder="Name" class="form-control"></dd>
+                        <dt>Date</dt>
+                        <dd><input type="date" placeholder="date" class="form-control"></dd>
+                        <dt>Email</dt>
+                        <dd><input type="email" placeholder="Email" class="form-control"></dd>
+                        <dt>phoneNo</dt>
+                        <dd><input type="text" placeholder="phoneNo" class="form-control"></dd>
+                    </dl>
+                </div>
+            </div>
+        </div>
+        <!-- FullStack Courses -->
+        <div class="accordion-item">
+            <div class="accordion-header">
+                <button class="btn btn-dark w-100 mt-2" style="font-weight:bold; font-family:Arial, Helvetica, sans-serif" data-bs-target="#fullstack" data-bs-toggle="collapse">FULLSTACK COURSES</button>
+            </div>
+            <div class="accordion-collapse collapse" id="fullstack" data-bs-parent="#Courses">
+                <div class="accordion-body text-center">
+                    <div class="row">
+                        <div class="card col">
+                              <img src="https://www.slaconsultantsindia.com/wp_files/wp-content/uploads/2018/12/Python-Full-Stack-Developer-Training-in-Delhi-NCR.png" class="card-img-top" height="300">
+                              <div class="card-header">
+                                <h3>Python Fullstack Course</h3>
+                              </div>
+                              <div class="card-footer">
+                                  <button class="btn btn-danger  w-100" data-bs-toggle="modal" data-bs-target="#python">Course FullDetails Click-</button>
+                              </div>
+                        </div>
+                        <div class="card col ">
+                            <img src="https://nareshit.com/wp-content/uploads/2020/12/Full-stack-java-developer-prohram-by-NareshIT-Nascom-Future-skills-program-scaled-1800x560.jpg" class="card-img-top" height="300">
+                            <div class="card-header">
+                              <h3>Java Fullstack Course</h3>
+                            </div>
+                            <div class="card-footer">
+                                <button class="btn btn-danger w-100" data-bs-toggle="modal" data-bs-target="#java">Course FullDetails Click-</button>
+                            </div>
+                            </div>
+                        </div>
+                    <div class="row">
+                        <div class="card col ">
+                            <img src="https://cdn.educba.com/academy/wp-content/uploads/2019/11/full-stack-web-developer.png" class="card-img-top" height="300">
+                        <div class="card-header">
+                            <h3>UI Full Stack</h3>
+                        </div>
+                        <div class="card-footer">
+                            <button class="btn btn-danger w-100" data-bs-target="#UI" data-bs-toggle="modal">Course FullDetails Click-</button>
+                        </div>
+                        </div>
+                        <div class="card col ">
+                            <img src="https://dotnettrickscloud.blob.core.windows.net/uploads/CourseImages/becomeafullstacknetdeveloper-mobile.png" class="card-img-top" height="300">
+                        <div class="card-header">
+                            <h3>.Net FullStack course</h3>
+                        </div>
+                        <div class="card-footer">
+                            <button class="btn btn-danger w-100" data-bs-toggle="modal" data-bs-target="#Net">Course FullDetails Click-</button>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Institude details -->
+        <div class="accordion-item">
+            <div class="accordion-header">
+                 <button class="btn btn-dark w-100 mt-2 " style="font-weight:bold; font-family:Arial, Helvetica, sans-serif;" data-bs-target="#Institude" data-bs-toggle="collapse">INSTITUDE DETAILS</button>
+            </div>
+            <div class="accordion-collapse collapse" id="Institude" data-bs-parent="#Courses">
+                <div class="accordion-body ">
+                    <div class="accordion-body m-2 p-2 text-center ">
+                        <div class="row">
+                            <div class="card col ">
+                                <h4>Hydrabad <br>(Telengana)</h4>
+                                <br>
+                                <h6>Search Best Institude <br> For Software Devlopment</h6>
+                            <div class="card-header">
+                                <button class="btn btn-warning w-100 text-dark" data-bs-toggle="modal" data-bs-target="#show">Click</button>
+                            </div>
+                            </div>
+                            <div class="card col">
+                                <h4>Indore <br>(M.P)</h4>
+                                <br>
+                                <h6>Search Best Institude <br> For Software Devlopment</h6>
+                                <div class="card-header">
+                                    <button class="btn btn-warning w-100 text-dark" data-bs-toggle="modal" data-bs-target="#show1">Click</button>
+                                </div>
+                            </div>
+                            <div class="card col">
+                                <h4>Delhi Noida <br> (NCT)</h4>
+                                <br>
+                                 <h6>Search Best Institude <br> For Software Devlopment</h6>
+                                <div class="card-header">
+                                    <button class="btn btn-warning w-100 text-dark" data-bs-target="#show2" data-bs-toggle="modal">Click</button>
+                                </div>
+                            </div>
+                            <div class="card  col">
+                                <h4>Banglore <br>(Tamil Nadu)</h4>
+                                <br>
+                                <h6>Search Best Institude <br> For Software Devlopment</h6>
+                                <div class="card-header">
+                                    <button class="btn btn-warning w-100 text-dark" data-bs-target="#show4" data-bs-toggle="modal">Click </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="card col">
+                                <h4>vijayawada <br> (andhra pradesh)</h4>
+                                <p>Search Best Institude <br> For Software Devlopment</p>
+                                <div class="card-header">
+                                    <button class="btn btn-warning w-100 text-dark" data-bs-target="#show5" data-bs-toggle="modal">Click</button>
+                                </div>
+                            </div>
+                            <div class="card col">
+                                <h4>karnataka <br>(south)</h4>
+                                <p>Search Best Institude <br> For Software Devlopment</p>
+                                <div class="card-header">
+                                    <button class="btn btn-warning w-100 text-dark" data-bs-target="#show4" data-bs-toggle="modal">Click</button>
+                                </div>
+                            </div>
+                            <div class="card col">
+                                <h4>Mumbai <br> (Maharashtra)</h4>
+                                <p>Search Best Institude <br> For Software Devlopment</p>
+                                <div class="card-header">
+                                    <button class="btn btn-warning w-100 text-dark" data-bs-target="#show4" data-bs-toggle="modal">Click</button>
+                                </div>
+                            </div>
+                            <div class="card  col">
+                                <h4>Chennai <br>(TamilNadu)</h4>
+                                <p>Search Best Institude <br> For Software Devlopment</p>
+                                <div class="card-header">
+                                    <button class="btn btn-warning w-100 text-dark" data-bs-target="#show4" data-bs-toggle="modal">Click</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Tranding course -->
+        <div class="accordion-item">
+            <div class="accordion-header">
+                <button class="btn btn-dark w-100 mt-2 " style="font-weight:bold; font-family:Arial, Helvetica, sans-serif;" data-bs-toggle="collapse" data-bs-target="#tranding">TRANDING COURSE</button>
+            </div>
+            <div class="accordion-collapse collapse bg-dark text-white" id="tranding">
+                <div class="accordion-body text-center bg-dark text-white">
+                    <div class="accordion-body m-2 p-2 text-center ">
+                        <div class="row">
+                            <div class="card bg-dark text-white col">
+                                <img src="https://d1.awsstatic.com/training-and-certification/certification-badges/AWS-Certified-Developer-Associate_badge.5c083fa855fe82c1cf2d0c8b883c265ec72a17c0.png" class="card-img-top" width="100%" height="300px">
+                            <div class="card-header">
+                                <h3>AWS Devloper</h3>
+                            </div>
+                            <div class="card-body">
+                                <p>Package</p>
+                                <p>Startin ::- 8 lac</p>
+                                <p>Ending  ::- 20 lac</p>
+                            </div>
+                            <div class="card-footer">
+                                <button class="btn btn-danger w-100">Details</button>
+                            </div>
+                            </div>
+                            <div class="card bg-dark text-white col">
+                                <img src="https://d1m75rqqgidzqn.cloudfront.net/wp-data/2019/09/11134058/What-is-data-science-2.jpg" class="card-img-top" width="100%" height="300px">
+                                <div class="card-header">
+                                    <h3>Data Sciense</h3>
+                                </div>
+                                <div class="card-body">
+                                    <p>Package</p>
+                                    <p>Startin ::- 8 lac</p>
+                                    <p>Ending  ::- 20 lac</p>
+                                </div>
+                                <div class="card-footer">
+                                    <button class="btn btn-danger w-100">Details</button>
+                                </div>
+                            </div>
+                            <div class="card bg-dark text-white col">
+                                <img src="https://www.codingdojo.com/blog/wp-content/uploads/ai-v2-img3.jpg" class="card-img-top" width="100%" height="300px">
+                                <div class="card-header">
+                                    <h3>artificial intelligence</h3>
+                                </div>
+                                <div class="card-body">
+                                    <p>Package</p>
+                                    <p>Starting :-8lac</p>
+                                    <p>Ending :- 27lac</p>
+                                </div>
+                                <div class="card-footer">
+                                    <button class="btn btn-danger w-100">Details</button>
+                                </div>    
+                            </div>
+                            <div class="row m-2 p-2">
+                                <div class="card bg-dark text-white col">
+                                    <img src="https://ashokitech.com/uploads/course/ui-fullstack-development-online-training.jpeg" class="card-img-top" width="100%" height="300px">
+                                <div class="card-header">
+                                    <h3>UI FullStack Devloper</h3>
+                                </div>
+                                <div class="card-body">
+                                    <p>Package</p>
+                                    <p>Startin ::- 8 lac</p>
+                                    <p>Ending  ::- 20 lac</p>
+                                </div>
+                                <div class="card-footer">
+                                    <button class="btn btn-danger w-100">Details</button>
+                                </div>
+                                </div>
+                                <div class="card bg-dark text-white col">
+                                    <img src="https://technogeekscs.com/wp-content/uploads/2022/08/Java-training-institute-.jpg" class="card-img-top" width="100%" height="300px">
+                                    <div class="card-header">
+                                        <h3>Java Fullstack</h3>
+                                    </div>
+                                    <div class="card-body">
+                                        <p>Package</p>
+                                        <p>Startin ::- 8 lac</p>
+                                        <p>Ending  ::- 20 lac</p>
+                                    </div>
+                                    <div class="card-footer">
+                                        <button class="btn btn-danger w-100">Details</button>
+                                    </div>
+                                </div>
+                                <div class="card bg-dark text-white col">
+                                    <img src="https://intersog.com/wp-content/uploads//2022/02/How-to-Find-an-Android-Developer.jpg" class="card-img-top" width="100%" height="300px">
+                                    <div class="card-header">
+                                        <h3>Andtroid Devloper</h3>
+                                    </div>
+                                    <div class="card-body">
+                                        <p>Package</p>
+                                        <p>Starting :-8lac</p>
+                                        <p>Ending :- 27lac</p>
+                                    </div>
+                                    <div class="card-footer">
+                                        <button class="btn btn-danger w-100">Details</button>
+                                    </div>    
+                               </div>
+                         </div>
+                    </div>   
+               </div>
+            </div>
+            </div>
+
+       <!-- Login Button -->
+       <div class="modal fade mt-1" id="loginButton">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2><span class="bi bi-person-fill"></span>Sign in..</h2>
+                </div>
+                <div class="modal-body">
+                    <dl>
+                        <dt>UserName</dt>
+                        <dd><input type="text" placeholder="UserName" class="form-control"></dd>
+                        <br>
+                        <dt>PassWord</dt>
+                        <dd><input type="password" placeholder="password" class="form-control"></dd>
+                    </dl>
+                </div>
+                <div class="modal-body" style="font-size:30px;">
+                    <h5>login with..</h5>
+                        <span class="bi bi-instagram"></span>
+                        <span class="bi bi-facebook"></span>
+                        <span class="bi bi-twitter"></span>
+                        <span class="bi bi-telegram"></span>
+                        <span class="bi bi-google"></span>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-primary">Login.</button>
+                    <button class="btn btn-danger" data-bs-dismiss="modal">Cancle</button>
+                    <br>
+                </div>
+            </div>
+        </div>
+    </div>
+
+     <!-- Sign up Button -->
+     <div class="modal fade mt-1" id="signupButton">
+        <div class="modal-dialog">
+            <div class="modal-content ">
+                <div class="modal-header">
+                    <h2><span class="bi bi-person"></span>SignUp.</h2>
+                </div>
+                <div class="modal-body">
+                    <dl>
+                        <dt>UserName</dt>
+                        <dd><input type="text" placeholder="username" class="form-control"></dd>
+                        <dt>PassWord</dt>
+                        <dd><input type="password" placeholder="PassWord" class="form-control"></dd>
+                        <dt>Email</dt>
+                        <dd><input type="email" placeholder="Email" class="form-control"></dd>
+                        <dt>phoneNo</dt>
+                        <dd><input type="text" placeholder="PhoneNo" class="form-control"></dd>
+                        <dt>Date of Birth</dt>
+                        <dd><input type="date" placeholder="D-O-B" class="form-control"></dd>
+                    </dl>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-info">signup</button>
+                    <button class="btn btn-danger" data-bs-dismiss="modal">Cancle</button>
+                </div>
+            </div>
+        </div>
+    </div>
+   
+    <!-- FullStack Pop -->
+    <div class="modal fade " id="java">
+        <div class="modal-dialog">
+            <div class="modal-content ">
+                <div class="modal-header">
+                    <h2>FullStack Java Curse Details..</h2>
+                </div>
+            <div class="modal-body">
+                1.Java Programming.
+                <br>
+                2.Java Web Development. JDBC. Servlet. JSP.
+                <br>
+                3.Spring Framework.
+                <br>
+                4.WebServices and Microservices.
+                <br>
+                5.Database. MySQL.
+                <br>
+                6.Software Testing. Manual Testing. Automation Testing Using Selenium.
+            </div>
+            <div class="modal-footer">
+                <b>
+                Price   :-12000/-
+                <br>
+                Duration:-6 Month
+                </b>
+            <button class="btn btn-danger" data-bs-dismiss="modal">cancle</button>
+            </div>
+        </div>
+     </div>
+    </div>
+    <!-- FullStack Python pop -->
+    <div class="modal fade " id="python">
+        <div class="modal-dialog">
+            <div class="modal-content ">
+                <div class="modal-header">
+                    <h2>FullStack Python Curse Details..</h2>
+                </div>
+            <div class="modal-body">
+                1.Introduction. 1.1 Learning Programming. The Python Language. ...
+                <br>
+                2.Development Environments. 2.1 Text Editors and IDEs. Vim. ...
+                <br>
+                3.Data. 3.1 Relational databases. PostgreSQL. ...
+                <br>
+                4.Web Development. 4.1 Web Frameworks. Django. ...
+                <br>
+                5.Web App Deployment. 5.1 Hosting. Servers. ...
+                <br>
+                6.DevOps. 6.1 Monitoring. ...
+                <br>
+                7.Meta.
+
+            </div>
+            <div class="modal-footer">
+                <b>
+                Price   :-10000/-
+                <br>
+                Duration:-6 Month
+                </b>
+                <button class="btn btn-danger" data-bs-dismiss="modal">cancle</button>
+            </div>
+        </div>
+     </div>
+    </div>
+
+    
+    <!-- FullStack UI pop -->
+    <div class="modal fade" id="UI">
+        <div class="modal-dialog">
+            <div class="modal-content ">
+                <div class="modal-header">
+                    <h2>UI FullStack Curse Details..</h2>
+                </div>
+            <div class="modal-body">
+                1.Html
+                <br>
+                2.css
+                <br>
+                3.JavaScript
+                <br>
+                4.bootstrap
+                <br>
+                5.jquery
+                <br>
+                6.Sess & Less
+                <br>
+                7.Nodejs
+                <br>
+                8.Mongobd
+                <br>
+            </div>
+            <div class="modal-footer">
+                <b>
+                Price   :-10000/-
+                <br>
+                Duration:-6 Month
+                </b>
+                <button class="btn btn-danger" data-bs-dismiss="modal">cancle</button>
+            </div>
+        </div>
+     </div>
+    </div>
+
+    
+    <!-- FullStack .net pop -->
+    <div class="modal fade" id="Net">
+        <div class="modal-dialog">
+            <div class="modal-content ">
+                <div class="modal-header">
+                    <h2>UI FullStack Curse Details..</h2>
+                </div>
+            <div class="modal-body">
+                1.C# and .NET Framework. ...
+                <br>
+                2.ASP.NET. ...
+                <br>
+                3.SQL Server. ...
+                <br>
+                4.HTML/CSS. ...
+                <br>
+                5.XML Web Services. ...
+                <br>
+                6.Internet Information Services (IIS) ...
+                <br>
+                7.Software Development Tools.
+                <br>
+            </div>
+            <div class="modal-footer">
+                <b>
+                Price   :-10000/-
+                <br>
+                Duration:-6 Month
+                </b>
+                <button class="btn btn-danger" data-bs-dismiss="modal">cancle</button>
+            </div>
+        </div>
+     </div>
+    </div>
+     
+    <!-- Hydrabad Search Institude -->
+    <div class="modal fade" id="show">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button class="btn btn-info w-100">Naresh It Hydrabad</button>
+                </div>
+                <div class="modal-body">
+                    <img src="https://i.ytimg.com/vi/rXkAKF3XB-o/maxresdefault.jpg" width="100%" height="300" >
+                </div>
+                <div class="modal-body">
+                    <h3>Naresh It ConnectNo:-</h3>
+                    <h6>connect No:-el: +91 40 2374 6666 (IN – Hyderabad) <br> Tel: +91 40 2373 4842 (IN – Hyderabad)<br> +91 9000994007 +91 9000994008 for Projects <br> +91 9000994005 ;
+                       Email: info@nareshit ...</h6>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-danger" data-bs-dismiss="modal">Cancle</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+    <!-- Indore Search Institude -->
+    <div class="modal fade" id="show1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button class="btn btn-info w-100">SSI Indore (M.P)</button>
+                </div>
+                <div class="modal-body">
+                    <img src="https://images.jdmagicbox.com/comp/mumbai/f8/011pxx11.xx11.170515102648.i6f8/catalogue/select-source-international-gurgaon-sector-44-gurgaon-jefuqrdbd7.jpg" width="100%" height="300" >
+                </div>
+                <div class="modal-body">
+                    <h3>SSI Indore Connect:-</h3>
+                    <h6>connect No:-el: +91 40 2374 6666 (IN – Indore) <br> Tel: +91 40 2373 4842 (IN – Hyderabad)<br> +91 9000994007 +91 9000994008 for Projects <br> +91 9000994005 ;
+                       Email: info@nareshit ...</h6>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-danger" data-bs-dismiss="modal">Cancle</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Delhi Noida Search Institude -->
+    <div class="modal fade" id="show2">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button class="btn btn-info w-100">OxFord Institude Delhi</button>
+                </div>
+                <div class="modal-body">
+                    <img src="https://content.jdmagicbox.com/comp/delhi/04/011pf012804/catalogue/oxford-software-institute-yamuna-vihar-delhi-tally-training-institutes-xib8ou2sbr-250.jpg" width="100%" height="300" >
+                </div>
+                <div class="modal-body">
+                    <h3>OxFord Connect:-</h3>
+                    <h6>connect No:-el: +91 40 2374 6666 (IN – Delhi) <br> Tel: +91 40 2373 4842 (IN – Hyderabad)<br> +91 9000994007 +91 9000994008 for Projects <br> +91 9000994005 ;
+                       Email: info@nareshit ...</h6>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-danger" data-bs-dismiss="modal">Cancle</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Search Institude -->
+    <div class="modal fade" id="show3">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button class="btn btn-info w-100">Spark Institude Pune</button>
+                </div>
+                <div class="modal-body">
+                    <img src="https://content.jdmagicbox.com/comp/pune/s7/020pxx20.xx20.140706113120.r3s7/catalogue/spark-academy-kondhwa-khurd-pune-jtp04.jpg?clr=660000" width="100%" height="300" >
+                </div>
+                <div class="modal-body">
+                    <h3>Spark Institude Connect:-</h3>
+                    <h6>connect No:-el: +91 40 2374 6666 (IN – Pune) <br> Tel: +91 40 2373 4842 (IN – Hyderabad)<br> +91 9000994007 +91 9000994008 for Projects <br> +91 9000994005 ;
+                       Email: info@nareshit ...</h6>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-danger" data-bs-dismiss="modal">Cancle</button>
+                </div>
+            </div>
+        </div>
+    </div>
+ </section>
+ <footer class="mt-2" style="margin-left:70px;">
+    <div class="footer container-fluid bg-dark mt-2">
+        <div class="row text-white">
+            <div class="col">
+                <h4>About</h4>
+                <p>Developer</p>
+                <p>Career</p>
+                <p>Best Institude</p>
+                <p>Best coures</p>
+                <p>learn more..</p>
+                <p>Best City.</p>
+            </div>
+            <div class="col">
+                <h4>Social</h4>
+                <p>Developer</p>
+                <p>Career</p>
+                <p>Best Institude</p>
+                <p>Best coures</p>
+                <p>learn more..</p>
+                <p>Best City.</p>
+            </div>
+            <div class="col">
+                <h4>Home</h4>
+                <p>Developer</p>
+                <p>Career</p>
+                <p>Best Institude</p>
+                <p>Best coures</p>
+                <p>learn more..</p>
+                <p>Best City.</p>
+            </div>
+            <div class="col">
+                <h4>Technology</h4>
+                <p>Java FullStack</p>
+                <p>Python FullStack</p>
+                <p>UI FullStack</p>
+                <p>.Net FullStack</p>
+                <p>learn more..</p>
+                <p>Best courses</p>
+            </div>
+        </div>
+        <div class="row text-white mt-2 text-center">
+            <h4>Login With..</h4>
+            <menu style="font-size:28px;">
+                <span class="bi bi-instagram"></span>
+                <span class="bi bi-facebook"></span>
+                <span class="bi bi-twitter"></span>
+                <span class="bi bi-google"></span>
+                <span class="bi bi-telegram"></span>
+            </menu>
+        </div>
+    </div>
+ </footer>
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    <script src="../node_modules/jquery/dist/jquery.js"></script>
+</body>
+</html>
